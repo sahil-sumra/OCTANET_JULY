@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", monospace;
+}
+
+body {
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+}
+
+.add {
+  background: #000000;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#count {
+  background: #676767;
+  border-radius: 2px;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#todo {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #000;
+  height: 30px;
+  font-size: 25px;
+  line-height: 2px;
+  padding: 4px;
+  font-family: "Poppins";
+}
+
+#btn {
+  background: #3434a7;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 25px;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#dueDate {
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  padding: 4px;
+}
+
+.list {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+  border-radius: 8px;
+  padding: 10px;
+  color: #fff;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.del {
+  background: #5656d6;
+  color: #fff;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+input[type="checkbox"]{
+  height: 20px;
+  width: 20px;
+  margin: 0 6px;
+}
